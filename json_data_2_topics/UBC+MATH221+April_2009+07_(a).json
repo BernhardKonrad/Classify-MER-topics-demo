@@ -1,0 +1,49 @@
+{
+    "ID": "UBC+MATH221+April_2009+07_(a)", 
+    "answer_html": "<p>Hence, we conclude <span class=\"math\">\\(\\left\\{\\begin{pmatrix}3\\\\-1\\end{pmatrix}, \\begin{pmatrix}1\\\\3\\end{pmatrix}\\right\\}\\)</span> is a basis for <span class=\"math\">\\(\\mathbb{R}^2\\)</span> consisting of eigenvectors of <em>T</em>.</p>\n", 
+    "answer_latex": "Hence, we conclude\n$\\left\\{\\begin{pmatrix}3\\\\-1\\end{pmatrix}, \\begin{pmatrix}1\\\\3\\end{pmatrix}\\right\\}$\nis a basis for $\\mathbb{R}^2$ consisting of eigenvectors of \\emph{T}.", 
+    "contributors": [
+        "CarmenBruni"
+    ], 
+    "course": "MATH221", 
+    "flags": [
+        "RQ", 
+        "CH", 
+        "RS", 
+        "RT"
+    ], 
+    "hints_html": [
+        "<p>No content found.</p>\n"
+    ], 
+    "hints_latex": [
+        "No content found."
+    ], 
+    "hints_raw": [
+        "No content found."
+    ], 
+    "num_votes": 0, 
+    "question": "7 (a)", 
+    "rating": -1, 
+    "sols_html": [
+        "<p>We first note that as <em>T</em> is a reflection mapping, it leaves the length of a vector unchanged. This is important as it allows us to determine the eigenvalues and eigenvectors without ever having to explicitly determine what <em>T</em> is.</p>\n<p>Since <em>T</em> leaves the length of a vector unchanged, the only eigenvalues are <em>1</em> and <em>-1</em>.</p>\n<p>The eigenvalue <em>1</em> corresponds to a vector which is invariant under the reflection; this vector must therefore lie on the line <span class=\"math\">\\(x_1 + 3x_2 = 0\\)</span>. Now the vector with coordinates <span class=\"math\">\\(x_1 = 3, x_2 = -1\\)</span> lies on the line <span class=\"math\">\\(x_1 + 3x_2 = 0\\)</span>, so we conclude <span class=\"math\">\\(\\begin{pmatrix}3\\\\-1\\end{pmatrix}\\)</span> is an eigenvector corresponding to the eigenvalue <em>1</em>.</p>\n<p>The eigenvalue <em>-1</em> corresponds to vectors which, under the reflection, has a <em>180</em> degree reversal in orientation. Such vectors necessarily must lie on the line <em>perpendicular</em> to the line <span class=\"math\">\\(x_1 + 3x_2 = 0\\)</span>. The equation for this perpendicular line is given by <span class=\"math\">\\(3x_1 - x_2 = 0\\)</span>, and the vector <span class=\"math\">\\(\\begin{pmatrix}1\\\\3\\end{pmatrix}\\)</span> lies on this perpendicular line. Therefore <span class=\"math\">\\(\\begin{pmatrix}1\\\\3\\end{pmatrix}\\)</span> is an eigenvector corresponding to the eigenvalue <em>-1</em>.</p>\n<p>Hence, we conclude <span class=\"math\">\\(\\left\\{\\begin{pmatrix}3\\\\-1\\end{pmatrix}, \\begin{pmatrix}1\\\\3\\end{pmatrix}\\right\\}\\)</span> is a basis for <span class=\"math\">\\(\\mathbb{R}^2\\)</span> consisting of eigenvectors of <em>T</em>.</p>\n"
+    ], 
+    "sols_latex": [
+        "We first note that as \\emph{T} is a reflection mapping, it leaves the\nlength of a vector unchanged. This is important as it allows us to\ndetermine the eigenvalues and eigenvectors without ever having to\nexplicitly determine what \\emph{T} is.\n\nSince \\emph{T} leaves the length of a vector unchanged, the only\neigenvalues are \\emph{1} and \\emph{-1}.\n\nThe eigenvalue \\emph{1} corresponds to a vector which is invariant under\nthe reflection; this vector must therefore lie on the line\n$x_1 + 3x_2 = 0$. Now the vector with coordinates $x_1 = 3, x_2 = -1$\nlies on the line $x_1 + 3x_2 = 0$, so we conclude\n$\\begin{pmatrix}3\\\\-1\\end{pmatrix}$ is an eigenvector corresponding to\nthe eigenvalue \\emph{1}.\n\nThe eigenvalue \\emph{-1} corresponds to vectors which, under the\nreflection, has a \\emph{180} degree reversal in orientation. Such\nvectors necessarily must lie on the line \\emph{perpendicular} to the\nline $x_1 + 3x_2 = 0$. The equation for this perpendicular line is given\nby $3x_1 - x_2 = 0$, and the vector $\\begin{pmatrix}1\\\\3\\end{pmatrix}$\nlies on this perpendicular line. Therefore\n$\\begin{pmatrix}1\\\\3\\end{pmatrix}$ is an eigenvector corresponding to\nthe eigenvalue \\emph{-1}.\n\nHence, we conclude\n$\\left\\{\\begin{pmatrix}3\\\\-1\\end{pmatrix}, \\begin{pmatrix}1\\\\3\\end{pmatrix}\\right\\}$\nis a basis for $\\mathbb{R}^2$ consisting of eigenvectors of \\emph{T}."
+    ], 
+    "sols_raw": [
+        "We first note that as ''T'' is a reflection mapping, it leaves the length of a vector unchanged. This is important as it allows us to determine the eigenvalues and eigenvectors without ever having to explicitly determine what ''T'' is.  \n\nSince ''T'' leaves the length of a vector unchanged, the only eigenvalues are ''1'' and ''-1''. \n\nThe eigenvalue ''1'' corresponds to a vector which is invariant under the reflection; this vector must therefore lie on the line &lt;math>x_1 + 3x_2 = 0&lt;/math>. Now the vector with coordinates &lt;math>x_1 = 3, x_2 = -1&lt;/math> lies on the line &lt;math>x_1 + 3x_2 = 0&lt;/math>, so we conclude &lt;math>\\begin{pmatrix}3\\\\-1\\end{pmatrix}&lt;/math> is an eigenvector corresponding to the eigenvalue ''1''.\n\nThe eigenvalue ''-1'' corresponds to vectors which, under the reflection, has a ''180'' degree reversal in orientation. Such vectors necessarily must lie on the line ''perpendicular'' to the line &lt;math>x_1 + 3x_2 = 0&lt;/math>. The equation for this perpendicular line is given by &lt;math> 3x_1 - x_2 = 0 &lt;/math>, and the vector &lt;math>\\begin{pmatrix}1\\\\3\\end{pmatrix}&lt;/math> lies on this perpendicular line. Therefore &lt;math>\\begin{pmatrix}1\\\\3\\end{pmatrix}&lt;/math> is an eigenvector corresponding to the eigenvalue ''-1''.\n\nHence, we conclude &lt;math>\\left\\{\\begin{pmatrix}3\\\\-1\\end{pmatrix}, \\begin{pmatrix}1\\\\3\\end{pmatrix}\\right\\}&lt;/math> is a basis for &lt;math>\\mathbb{R}^2&lt;/math> consisting of eigenvectors of ''T''."
+    ], 
+    "solvers": [
+        "MalcolmBowles"
+    ], 
+    "statement_html": "<p>Let <span class=\"math\">\\(T: \\mathbb{R}^2 \\to \\mathbb{R}^2\\)</span> be the reflection across the line <span class=\"math\">\\(x_1 + 3x_2 = 0\\)</span>, and let <em>A</em> be the standard matrix of this linear transformation.</p>\n<p>Find a basis for <span class=\"math\">\\(\\mathbb{R}^2\\)</span> consisting of eigenvectors of <em>A</em>.</p>\n", 
+    "statement_latex": "Let $T: \\mathbb{R}^2 \\to \\mathbb{R}^2$ be the reflection across the line\n$x_1 + 3x_2 = 0$, and let \\emph{A} be the standard matrix of this linear\ntransformation.\n\nFind a basis for $\\mathbb{R}^2$ consisting of eigenvectors of \\emph{A}.", 
+    "statement_raw": "Let &lt;math> T: \\mathbb{R}^2 \\to \\mathbb{R}^2&lt;/math> be the reflection across the line &lt;math> x_1 + 3x_2 = 0&lt;/math>, and let ''A'' be the standard matrix of this linear transformation.\n\nFind a basis for &lt;math>\\mathbb{R}^2&lt;/math> consisting of eigenvectors of ''A''.", 
+    "term": "April", 
+    "topic_suggest": [], 
+    "topics": [
+        "Eigenvalues_and_eigenvectors"
+    ], 
+    "url": "http://wiki.ubc.ca/Science:Math_Exam_Resources/Courses/MATH221/April_2009/Question_07_(a)", 
+    "year": 2009
+}

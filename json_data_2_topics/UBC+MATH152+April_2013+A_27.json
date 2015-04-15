@@ -1,0 +1,83 @@
+{
+    "ID": "UBC+MATH152+April_2013+A_27", 
+    "answer_html": "<p>The identity matrix has every non-zero vector as an eigenvector.So does the zero matrix.</p>\n", 
+    "answer_latex": "The identity matrix has every non-zero vector as an eigenvector.So does\nthe zero matrix.", 
+    "contributors": [
+        "Konradbe"
+    ], 
+    "course": "MATH152", 
+    "flags": [
+        "QGQ", 
+        "QGH", 
+        "QGS", 
+        "QGT"
+    ], 
+    "hints_html": [
+        "<p>What is one of the first matrices you learn about? Try that one.</p>\n"
+    ], 
+    "hints_latex": [
+        "What is one of the first matrices you learn about? Try that one."
+    ], 
+    "hints_raw": [
+        "What is one of the first matrices you learn about? Try that one."
+    ], 
+    "num_votes": 6, 
+    "question": "A 27", 
+    "rating": 3.6666666666666665, 
+    "sols_html": [
+        "<p>The identity matrix has every non-zero vector as an eigenvector. So does the zero matrix.</p>\n"
+    ], 
+    "sols_latex": [
+        "The identity matrix has every non-zero vector as an eigenvector. So does\nthe zero matrix."
+    ], 
+    "sols_raw": [
+        "The identity matrix has every non-zero vector as an eigenvector. So does the zero matrix."
+    ], 
+    "solvers": [
+        "CarmenBruni"
+    ], 
+    "statement_html": "<p>Construct a matrix with eigenvector <span class=\"math\">\\(\\begin{bmatrix} 1 \\\\ i \\end{bmatrix}\\)</span></p>\n", 
+    "statement_latex": "Construct a matrix with eigenvector\n$\\begin{bmatrix} 1 \\\\ i \\end{bmatrix}$", 
+    "statement_raw": "Construct a matrix with eigenvector &lt;math> \\begin{bmatrix} 1 \\\\ i \\end{bmatrix} &lt;/math>", 
+    "term": "April", 
+    "topic_suggest": [
+        "Matrix_operations"
+    ], 
+    "topics": [
+        "Eigenvalues_and_eigenvectors"
+    ], 
+    "url": "http://wiki.ubc.ca/Science:Math_Exam_Resources/Courses/MATH152/April_2013/Question_A_27", 
+    "votes": [
+        [
+            5, 
+            11466, 
+            "2014-04-11 01:25:04"
+        ], 
+        [
+            1, 
+            13007, 
+            "2014-04-15 06:46:26"
+        ], 
+        [
+            3, 
+            13004, 
+            "2014-04-15 16:47:24"
+        ], 
+        [
+            5, 
+            12973, 
+            "2014-04-15 22:45:35"
+        ], 
+        [
+            5, 
+            12910, 
+            "2014-04-16 05:02:00"
+        ], 
+        [
+            3, 
+            13034, 
+            "2014-04-16 05:21:22"
+        ]
+    ], 
+    "year": 2013
+}

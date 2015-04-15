@@ -1,0 +1,49 @@
+{
+    "ID": "UBC+MATH221+April_2009+07_(b)", 
+    "answer_html": "<p><span class=\"math\">\\(A\\begin{pmatrix}3\\\\-1\\end{pmatrix} = \\begin{pmatrix}3\\\\-1\\end{pmatrix}\\)</span> and <span class=\"math\">\\(A\\begin{pmatrix}1\\\\3\\end{pmatrix} = -\\begin{pmatrix}1\\\\3\\end{pmatrix}.\\)</span></p>\n", 
+    "answer_latex": "$A\\begin{pmatrix}3\\\\-1\\end{pmatrix} = \\begin{pmatrix}3\\\\-1\\end{pmatrix}$\nand\n$A\\begin{pmatrix}1\\\\3\\end{pmatrix} = -\\begin{pmatrix}1\\\\3\\end{pmatrix}.$", 
+    "contributors": [
+        "CarmenBruni"
+    ], 
+    "course": "MATH221", 
+    "flags": [
+        "RQ", 
+        "CH", 
+        "RS", 
+        "RT"
+    ], 
+    "hints_html": [
+        "<p>No content found.</p>\n"
+    ], 
+    "hints_latex": [
+        "No content found."
+    ], 
+    "hints_raw": [
+        "No content found."
+    ], 
+    "num_votes": 0, 
+    "question": "7 (b)", 
+    "rating": -1, 
+    "sols_html": [
+        "<p>From part (a), we know that <em>1</em> is an eigenvalue of <em>A</em> with eigenvector <span class=\"math\">\\(\\begin{pmatrix}3\\\\-1\\end{pmatrix}\\)</span>, and <em>-1</em> is an eigenvalue of <em>A</em> with eigenvector <span class=\"math\">\\(\\begin{pmatrix}1\\\\3\\end{pmatrix}\\)</span>.</p>\n<p>If we form the matrix <span class=\"math\">\\(P = \\begin{pmatrix} 3 &amp; 1 \\\\ -1 &amp; 3 \\end{pmatrix}\\)</span> whose columns are the eigenvectors, with corresponding diagonal matrix <span class=\"math\">\\(\\Lambda = \\begin{pmatrix} 1 &amp; 0 \\\\ 0 &amp; -1 \\end{pmatrix}\\)</span>, we know that the matrix <em>A</em> decomposes via the standard matrix diagonalization</p>\n<p><span class=\"math\">\\(A = P \\Lambda P^{-1}.\\)</span></p>\n<p>Upon computing <span class=\"math\">\\(P^{-1} =  \\frac{1}{10}\\begin{pmatrix} 3 &amp; -1 \\\\ 1 &amp; 3 \\end{pmatrix}\\)</span>, we multiply the three matrices together to find <em>A</em>:</p>\n<p><span class=\"math\">\\(A =  \\frac{1}{10}\\begin{pmatrix} 3 &amp; 1 \\\\ -1 &amp; 3 \\end{pmatrix}\\begin{pmatrix} 1 &amp; 0 \\\\ 0 &amp; -1 \\end{pmatrix}\\begin{pmatrix} 3 &amp; -1 \\\\ 1 &amp; 3 \\end{pmatrix} = \\frac{1}{5}\\begin{pmatrix} 4 &amp; -3 \\\\ -3 &amp; -4 \\end{pmatrix}.\\)</span></p>\n<p>As a quick check of our work, we should verify that indeed</p>\n<p><span class=\"math\">\\(A\\begin{pmatrix}3\\\\-1\\end{pmatrix} = \\begin{pmatrix}3\\\\-1\\end{pmatrix}\\)</span> and <span class=\"math\">\\(A\\begin{pmatrix}1\\\\3\\end{pmatrix} = -\\begin{pmatrix}1\\\\3\\end{pmatrix}.\\)</span></p>\n"
+    ], 
+    "sols_latex": [
+        "From part (a), we know that \\emph{1} is an eigenvalue of \\emph{A} with\neigenvector $\\begin{pmatrix}3\\\\-1\\end{pmatrix}$, and \\emph{-1} is an\neigenvalue of \\emph{A} with eigenvector\n$\\begin{pmatrix}1\\\\3\\end{pmatrix}$.\n\nIf we form the matrix\n$P = \\begin{pmatrix} 3 & 1 \\\\ -1 & 3 \\end{pmatrix}$ whose columns are\nthe eigenvectors, with corresponding diagonal matrix\n$\\Lambda = \\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}$, we know that\nthe matrix \\emph{A} decomposes via the standard matrix diagonalization\n\n$A = P \\Lambda P^{-1}.$\n\nUpon computing\n$P^{-1} =  \\frac{1}{10}\\begin{pmatrix} 3 & -1 \\\\ 1 & 3 \\end{pmatrix}$,\nwe multiply the three matrices together to find \\emph{A}:\n\n$A =  \\frac{1}{10}\\begin{pmatrix} 3 & 1 \\\\ -1 & 3 \\end{pmatrix}\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\begin{pmatrix} 3 & -1 \\\\ 1 & 3 \\end{pmatrix} = \\frac{1}{5}\\begin{pmatrix} 4 & -3 \\\\ -3 & -4 \\end{pmatrix}.$\n\nAs a quick check of our work, we should verify that indeed\n\n$A\\begin{pmatrix}3\\\\-1\\end{pmatrix} = \\begin{pmatrix}3\\\\-1\\end{pmatrix}$\nand\n$A\\begin{pmatrix}1\\\\3\\end{pmatrix} = -\\begin{pmatrix}1\\\\3\\end{pmatrix}.$"
+    ], 
+    "sols_raw": [
+        "From part (a), we know that ''1'' is an eigenvalue of ''A'' with eigenvector &lt;math>\\begin{pmatrix}3\\\\-1\\end{pmatrix}&lt;/math>, and ''-1'' is an eigenvalue of ''A'' with eigenvector &lt;math>\\begin{pmatrix}1\\\\3\\end{pmatrix}&lt;/math>.\n\nIf we form the matrix &lt;math> P = \\begin{pmatrix} 3 &amp; 1 \\\\ -1 &amp; 3 \\end{pmatrix} &lt;/math> whose columns are the eigenvectors, with corresponding diagonal matrix &lt;math> \\Lambda = \\begin{pmatrix} 1 &amp; 0 \\\\ 0 &amp; -1 \\end{pmatrix} &lt;/math>, we know that the matrix ''A'' decomposes via the standard matrix diagonalization\n\n&lt;math>\nA = P \\Lambda P^{-1}.\n&lt;/math>\n\nUpon computing &lt;math> P^{-1} =  \\frac{1}{10}\\begin{pmatrix} 3 &amp; -1 \\\\ 1 &amp; 3 \\end{pmatrix} &lt;/math>, we multiply the three matrices together to find ''A'':\n\n&lt;math>\nA =  \\frac{1}{10}\\begin{pmatrix} 3 &amp; 1 \\\\ -1 &amp; 3 \\end{pmatrix}\\begin{pmatrix} 1 &amp; 0 \\\\ 0 &amp; -1 \\end{pmatrix}\\begin{pmatrix} 3 &amp; -1 \\\\ 1 &amp; 3 \\end{pmatrix} = \\frac{1}{5}\\begin{pmatrix} 4 &amp; -3 \\\\ -3 &amp; -4 \\end{pmatrix}.\n&lt;/math>\n\nAs a quick check of our work, we should verify that indeed \n\n&lt;math> A\\begin{pmatrix}3\\\\-1\\end{pmatrix} = \\begin{pmatrix}3\\\\-1\\end{pmatrix}&lt;/math> and &lt;math> A\\begin{pmatrix}1\\\\3\\end{pmatrix} = -\\begin{pmatrix}1\\\\3\\end{pmatrix}.&lt;/math>"
+    ], 
+    "solvers": [
+        "MalcolmBowles"
+    ], 
+    "statement_html": "<p>Let <span class=\"math\">\\(T: \\mathbb{R}^2 \\to \\mathbb{R}^2\\)</span> be the reflection across the line <span class=\"math\">\\(x_1 + 3x_2 = 0\\)</span>, and let <em>A</em> be the standard matrix of this linear transformation.</p>\n<p>Find the matrix <em>A</em>.</p>\n", 
+    "statement_latex": "Let $T: \\mathbb{R}^2 \\to \\mathbb{R}^2$ be the reflection across the line\n$x_1 + 3x_2 = 0$, and let \\emph{A} be the standard matrix of this linear\ntransformation.\n\nFind the matrix \\emph{A}.", 
+    "statement_raw": "Let &lt;math> T: \\mathbb{R}^2 \\to \\mathbb{R}^2&lt;/math> be the reflection across the line &lt;math> x_1 + 3x_2 = 0&lt;/math>, and let ''A'' be the standard matrix of this linear transformation.\n\nFind the matrix ''A''.", 
+    "term": "April", 
+    "topic_suggest": [], 
+    "topics": [
+        "Eigenvalues_and_eigenvectors"
+    ], 
+    "url": "http://wiki.ubc.ca/Science:Math_Exam_Resources/Courses/MATH221/April_2009/Question_07_(b)", 
+    "year": 2009
+}

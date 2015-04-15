@@ -1,0 +1,51 @@
+{
+    "ID": "UBC+MATH221+December_2007+08_(b)", 
+    "answer_html": "<p>Therefore <em>T</em> has no eigenvectors.</p>\n", 
+    "answer_latex": "Therefore \\emph{T} has no eigenvectors.", 
+    "contributors": [
+        "Konradbe"
+    ], 
+    "course": "MATH221", 
+    "flags": [
+        "RQ", 
+        "CH", 
+        "RS", 
+        "RT"
+    ], 
+    "hints_html": [
+        "<p>No content found.</p>\n"
+    ], 
+    "hints_latex": [
+        "No content found."
+    ], 
+    "hints_raw": [
+        "No content found."
+    ], 
+    "num_votes": 0, 
+    "question": "8 (b)", 
+    "rating": -1, 
+    "sols_html": [
+        "<p>There is no basis of <span class=\"math\">\\(\\mathbb{R}^2\\)</span> consisting of eigenvectors of <em>T</em>. This is because <em>T</em> has no eigenvectors.</p>\n<p>Why? If <em>v</em> were an eigenvector of <em>T</em>, then <span class=\"math\">\\(T(v) = \\lambda v\\)</span> for some <span class=\"math\">\\(\\lambda \\in \\mathbb{R}\\)</span>. As <em>T</em> is a rotation, it does not change the length of <em>v</em>, so the only possible values for <span class=\"math\">\\(\\lambda\\)</span> are <span class=\"math\">\\(\\pm 1\\)</span>. This implies <em>T(v)</em> lies either parallel to <em>v</em> (if <span class=\"math\">\\(\\lambda = 1\\)</span>) or anti-parallel (if <span class=\"math\">\\(\\lambda = -1\\)</span>). But this is impossible, as <em>T(v)</em> is a clockwise rotation by 5 degrees.</p>\n<p>Therefore <em>T</em> has no eigenvectors.</p>\n"
+    ], 
+    "sols_latex": [
+        "There is no basis of $\\mathbb{R}^2$ consisting of eigenvectors of\n\\emph{T}. This is because \\emph{T} has no eigenvectors.\n\nWhy? If \\emph{v} were an eigenvector of \\emph{T}, then\n$T(v) = \\lambda v$ for some $\\lambda \\in \\mathbb{R}$. As \\emph{T} is a\nrotation, it does not change the length of \\emph{v}, so the only\npossible values for $\\lambda$ are $\\pm 1$. This implies \\emph{T(v)} lies\neither parallel to \\emph{v} (if $\\lambda = 1$) or anti-parallel (if\n$\\lambda = -1$). But this is impossible, as \\emph{T(v)} is a clockwise\nrotation by 5 degrees.\n\nTherefore \\emph{T} has no eigenvectors."
+    ], 
+    "sols_raw": [
+        "There is no basis of &lt;math>\\mathbb{R}^2 &lt;/math> consisting of eigenvectors of ''T''. This is because ''T'' has no eigenvectors.\n\nWhy? If ''v'' were an eigenvector of ''T'', then &lt;math> T(v) = \\lambda v &lt;/math> for some &lt;math> \\lambda \\in \\mathbb{R}&lt;/math>. As ''T'' is a rotation, it does not change the length of ''v'', so the only possible values for &lt;math>\\lambda&lt;/math> are &lt;math> \\pm 1&lt;/math>. This implies ''T(v)'' lies either parallel to ''v'' (if &lt;math>\\lambda = 1 &lt;/math>) or anti-parallel (if &lt;math>\\lambda = -1 &lt;/math>).  But this is impossible, as ''T(v)'' is a clockwise rotation by 5 degrees. \n\nTherefore ''T'' has no eigenvectors."
+    ], 
+    "solvers": [
+        "MalcolmBowles"
+    ], 
+    "statement_html": "<p>Let <span class=\"math\">\\(T: \\mathbb{R}^2 \\to \\mathbb{R}^2\\)</span> be the linear map given by rotation clockwise by 5 degrees. Find a basis of <span class=\"math\">\\(\\mathbb{R}^2\\)</span> consisting of eigenvalues of <em>T</em>, or explain why this is not possible.</p>\n", 
+    "statement_latex": "Let $T: \\mathbb{R}^2 \\to \\mathbb{R}^2$ be the linear map given by\nrotation clockwise by 5 degrees. Find a basis of $\\mathbb{R}^2$\nconsisting of eigenvalues of \\emph{T}, or explain why this is not\npossible.", 
+    "statement_raw": "Let &lt;math> T: \\mathbb{R}^2 \\to \\mathbb{R}^2 &lt;/math> be the linear map given by rotation clockwise by 5 degrees. Find a basis of &lt;math>\\mathbb{R}^2&lt;/math> consisting of eigenvalues of ''T'', or explain why this is not possible.", 
+    "term": "December", 
+    "topic_suggest": [
+        "Integration_by_parts"
+    ], 
+    "topics": [
+        "Eigenvalues_and_eigenvectors"
+    ], 
+    "url": "http://wiki.ubc.ca/Science:Math_Exam_Resources/Courses/MATH221/December_2007/Question_08_(b)", 
+    "year": 2007
+}

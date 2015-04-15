@@ -1,0 +1,49 @@
+{
+    "ID": "UBC+MATH221+December_2007+08_(a)", 
+    "answer_html": "<p>We therefore have two (linearly independent) eigenvectors for <em>T</em>, <span class=\"math\">\\(\\begin{pmatrix}2\\\\1\\end{pmatrix}\\)</span> and <span class=\"math\">\\(\\begin{pmatrix}1\\\\-2\\end{pmatrix}\\)</span>, which form a basis for <span class=\"math\">\\(\\mathbb{R}^2\\)</span>.</p>\n", 
+    "answer_latex": "We therefore have two (linearly independent) eigenvectors for \\emph{T},\n$\\begin{pmatrix}2\\\\1\\end{pmatrix}$ and\n$\\begin{pmatrix}1\\\\-2\\end{pmatrix}$, which form a basis for\n$\\mathbb{R}^2$.", 
+    "contributors": [
+        "Konradbe"
+    ], 
+    "course": "MATH221", 
+    "flags": [
+        "RQ", 
+        "CH", 
+        "RS", 
+        "RT"
+    ], 
+    "hints_html": [
+        "<p>No content found.</p>\n"
+    ], 
+    "hints_latex": [
+        "No content found."
+    ], 
+    "hints_raw": [
+        "No content found."
+    ], 
+    "num_votes": 0, 
+    "question": "8 (a)", 
+    "rating": -1, 
+    "sols_html": [
+        "<p>Since <em>T</em> is a reflection, it does not change the length of any vector. Therefore, 1 and -1 are the only possible eigenvalues for <em>T</em>.</p>\n<p>The eigenvalue 1 corresponds to a vector which remains invariant under <em>T</em>, and therefore these vectors must lie on the line of reflection <span class=\"math\">\\(y = \\frac{1}{2}x\\)</span>. In particular, we see that <span class=\"math\">\\(\\begin{pmatrix}2\\\\1\\end{pmatrix}\\)</span> is an eigenvector for <em>T</em> corresponding to the eigenvalue 1, as it lies on the line <span class=\"math\">\\(y = \\frac{1}{2}x\\)</span>.</p>\n<p>The eigenvalue -1 corresponds to a 180 degree reversal in orientation; these vectors must therefore lie on the line <em>perpendicular</em> to the line of reflection, that is, any vector lying on the line <span class=\"math\">\\(y = -2x\\)</span>. Since <span class=\"math\">\\(\\begin{pmatrix}1\\\\-2\\end{pmatrix}\\)</span> lies on the line <span class=\"math\">\\(y = -2x\\)</span>, we conclude that it is an eigenvector corresponding to the eigenvalue -1.</p>\n<p>We therefore have two (linearly independent) eigenvectors for <em>T</em>, <span class=\"math\">\\(\\begin{pmatrix}2\\\\1\\end{pmatrix}\\)</span> and <span class=\"math\">\\(\\begin{pmatrix}1\\\\-2\\end{pmatrix}\\)</span>, which form a basis for <span class=\"math\">\\(\\mathbb{R}^2\\)</span>.</p>\n"
+    ], 
+    "sols_latex": [
+        "Since \\emph{T} is a reflection, it does not change the length of any\nvector. Therefore, 1 and -1 are the only possible eigenvalues for\n\\emph{T}.\n\nThe eigenvalue 1 corresponds to a vector which remains invariant under\n\\emph{T}, and therefore these vectors must lie on the line of reflection\n$y = \\frac{1}{2}x$. In particular, we see that\n$\\begin{pmatrix}2\\\\1\\end{pmatrix}$ is an eigenvector for \\emph{T}\ncorresponding to the eigenvalue 1, as it lies on the line\n$y = \\frac{1}{2}x$.\n\nThe eigenvalue -1 corresponds to a 180 degree reversal in orientation;\nthese vectors must therefore lie on the line \\emph{perpendicular} to the\nline of reflection, that is, any vector lying on the line $y = -2x$.\nSince $\\begin{pmatrix}1\\\\-2\\end{pmatrix}$ lies on the line $y = -2x$, we\nconclude that it is an eigenvector corresponding to the eigenvalue -1.\n\nWe therefore have two (linearly independent) eigenvectors for \\emph{T},\n$\\begin{pmatrix}2\\\\1\\end{pmatrix}$ and\n$\\begin{pmatrix}1\\\\-2\\end{pmatrix}$, which form a basis for\n$\\mathbb{R}^2$."
+    ], 
+    "sols_raw": [
+        "Since ''T'' is a reflection, it does not change the length of any vector. Therefore, 1 and -1 are the only possible eigenvalues for ''T''. \n\nThe eigenvalue 1 corresponds to a vector which remains invariant under ''T'', and therefore these vectors must lie on the line of reflection &lt;math> y = \\frac{1}{2}x&lt;/math>. In particular, we see that &lt;math>\\begin{pmatrix}2\\\\1\\end{pmatrix}&lt;/math> is an eigenvector for ''T'' corresponding to the eigenvalue 1, as it lies on the line &lt;math> y = \\frac{1}{2}x&lt;/math>. \n\nThe eigenvalue -1 corresponds to a 180 degree reversal in orientation; these vectors must therefore lie on the line ''perpendicular'' to the line of reflection, that is, any vector lying on the line &lt;math> y = -2x &lt;/math>. Since &lt;math>\\begin{pmatrix}1\\\\-2\\end{pmatrix}&lt;/math> lies on the line  &lt;math> y = -2x &lt;/math>, we conclude that it is an eigenvector corresponding to the eigenvalue -1.\n\nWe therefore have two (linearly independent) eigenvectors for ''T'',  &lt;math>\\begin{pmatrix}2\\\\1\\end{pmatrix}&lt;/math> and &lt;math>\\begin{pmatrix}1\\\\-2\\end{pmatrix}&lt;/math>, which form a basis for &lt;math>\\mathbb{R}^2&lt;/math>."
+    ], 
+    "solvers": [
+        "MalcolmBowles"
+    ], 
+    "statement_html": "<p>Let <span class=\"math\">\\(T: \\mathbb{R}^2 \\to \\mathbb{R}^2\\)</span> be the linear map given by reflection across the line <span class=\"math\">\\(y = \\frac{1}{2} x\\)</span>. Find a basis of <span class=\"math\">\\(\\mathbb{R}^2\\)</span> consisting of eigenvalues of <em>T</em>, or explain why this is not possible.</p>\n", 
+    "statement_latex": "Let $T: \\mathbb{R}^2 \\to \\mathbb{R}^2$ be the linear map given by\nreflection across the line $y = \\frac{1}{2} x$. Find a basis of\n$\\mathbb{R}^2$ consisting of eigenvalues of \\emph{T}, or explain why\nthis is not possible.", 
+    "statement_raw": "Let &lt;math> T: \\mathbb{R}^2 \\to \\mathbb{R}^2 &lt;/math> be the linear map given by reflection across the line &lt;math> y = \\frac{1}{2} x&lt;/math>. Find a basis of &lt;math>\\mathbb{R}^2&lt;/math> consisting of eigenvalues of ''T'', or explain why this is not possible.", 
+    "term": "December", 
+    "topic_suggest": [], 
+    "topics": [
+        "Eigenvalues_and_eigenvectors"
+    ], 
+    "url": "http://wiki.ubc.ca/Science:Math_Exam_Resources/Courses/MATH221/December_2007/Question_08_(a)", 
+    "year": 2007
+}

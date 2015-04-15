@@ -1,0 +1,51 @@
+{
+    "ID": "UBC+MATH221+April_2010+07_(a)", 
+    "answer_html": "<p>Let <span class=\"math\">\\(\\vec{y} = c\\vec{v}\\)</span> <span class=\"math\">\\(A\\vec{y} = \\lambda\\vec{y}\\)</span> Therefore <span class=\"math\">\\(c\\vec{v}\\)</span> is also an eigenvector with the same eigenvalue <span class=\"math\">\\(\\lambda\\)</span></p>\n", 
+    "answer_latex": "Let $\\vec{y} = c\\vec{v}$\n$A\\vec{y} = \\lambda\\vec{y}$\nTherefore $c\\vec{v}$ is also an eigenvector with the same eigenvalue\n$\\lambda$", 
+    "contributors": [
+        "Konradbe"
+    ], 
+    "course": "MATH221", 
+    "flags": [
+        "RQ", 
+        "CH", 
+        "RS", 
+        "RT"
+    ], 
+    "hints_html": [
+        "<p>No content found.</p>\n"
+    ], 
+    "hints_latex": [
+        "No content found."
+    ], 
+    "hints_raw": [
+        "No content found."
+    ], 
+    "num_votes": 0, 
+    "question": "7 (a)", 
+    "rating": -1, 
+    "sols_html": [
+        "<p>Let <span class=\"math\">\\(\\vec{y} = c\\vec{v}\\)</span> <span class=\"math\">\\(A\\vec{y} = A(c\\vec{v}) = c(A\\vec{v}) = c(\\lambda\\vec{v}) = \\lambda(c\\vec{v}) = \\lambda\\vec{y}\\)</span> Therefore <span class=\"math\">\\(c\\vec{v}\\)</span> is also an eigenvector with the same eigenvalue <span class=\"math\">\\(\\lambda\\)</span></p>\n"
+    ], 
+    "sols_latex": [
+        "Let $\\vec{y} = c\\vec{v}$\n$A\\vec{y} = A(c\\vec{v}) = c(A\\vec{v}) = c(\\lambda\\vec{v}) = \\lambda(c\\vec{v}) = \\lambda\\vec{y}$\nTherefore $c\\vec{v}$ is also an eigenvector with the same eigenvalue\n$\\lambda$"
+    ], 
+    "sols_raw": [
+        "Let &lt;math>\\vec{y} = c\\vec{v}&lt;/math> &lt;math>A\\vec{y} = A(c\\vec{v}) = c(A\\vec{v}) = c(\\lambda\\vec{v}) = \\lambda(c\\vec{v}) = \\lambda\\vec{y}&lt;/math> Therefore &lt;math>c\\vec{v}&lt;/math> is also an eigenvector with the same eigenvalue &lt;math>\\lambda&lt;/math>"
+    ], 
+    "solvers": [
+        "CarmenBruni"
+    ], 
+    "statement_html": "<p>Let A be a square matrix, with eigenvector v and corresponding eigenvalue <span class=\"math\">\\(\\displaystyle \\lambda\\)</span>.</p>\n<p>Show that cv is also an eigenvector for A with the same eigenvalue <span class=\"math\">\\(\\displaystyle \\lambda\\)</span> as v for any nonzero constant c.</p>\n", 
+    "statement_latex": "Let A be a square matrix, with eigenvector v and corresponding\neigenvalue $\\displaystyle \\lambda$.\n\nShow that cv is also an eigenvector for A with the same eigenvalue\n$\\displaystyle \\lambda$ as v for any nonzero constant c.", 
+    "statement_raw": "Let A be a square matrix, with eigenvector v and corresponding eigenvalue &lt;math> \\displaystyle \\lambda &lt;/math>.\n\nShow that cv is also an eigenvector for A with the same eigenvalue &lt;math> \\displaystyle \\lambda &lt;/math> as v for any nonzero constant c.", 
+    "term": "April", 
+    "topic_suggest": [
+        "Probability_density_function"
+    ], 
+    "topics": [
+        "Eigenvalues_and_eigenvectors"
+    ], 
+    "url": "http://wiki.ubc.ca/Science:Math_Exam_Resources/Courses/MATH221/April_2010/Question_07_(a)", 
+    "year": 2010
+}

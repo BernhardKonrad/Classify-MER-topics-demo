@@ -1,0 +1,51 @@
+{
+    "ID": "UBC+MATH221+December_2008+07_(b)", 
+    "answer_html": "<p>Since the eigenvalues of a matrix are the zeros of its characteristic polynomial, and the characteristic polynomials for <em>A</em> and <em>B</em> are identical, we conclude that the eigenvalues of <em>A</em> and <em>B</em> are the same.</p>\n", 
+    "answer_latex": "Since the eigenvalues of a matrix\nare the zeros of its characteristic polynomial, and the characteristic\npolynomials for \\emph{A} and \\emph{B} are identical, we conclude that\nthe eigenvalues of \\emph{A} and \\emph{B} are the same.", 
+    "contributors": [
+        "CarmenBruni"
+    ], 
+    "course": "MATH221", 
+    "flags": [
+        "RQ", 
+        "RH", 
+        "RS", 
+        "RT"
+    ], 
+    "hints_html": [
+        "<p>If two matrices are similar, then there is a relation between their respective characteristic polynomials (what is it?). How does the characteristic polynomial of a matrix relate to its eigenvalues?</p>\n"
+    ], 
+    "hints_latex": [
+        "If two matrices are similar, then there is a relation between their\nrespective characteristic polynomials (what is it?). How does the\ncharacteristic polynomial of a matrix relate to its eigenvalues?"
+    ], 
+    "hints_raw": [
+        "If two matrices are similar, then there is a relation between their respective characteristic polynomials (what is it?). How does the characteristic polynomial of a matrix relate to its eigenvalues?"
+    ], 
+    "num_votes": 0, 
+    "question": "7 (b)", 
+    "rating": -1, 
+    "sols_html": [
+        "<p>The statement is true: If <em>A</em> and <em>B</em> are similar, then there is an invertible matrix <em>P</em> for which <span class=\"math\">\\(A = P^{-1}B P\\)</span>. Then we can write</p>\n<p><span class=\"math\">\\[\\begin{aligned}\nxI - A &amp;= xI - P^{-1}B P \\\\\n&amp;= P^{-1}(xI -B)P.\\end{aligned}\\]</span></p>\n<p>Therefore we compute that</p>\n<p><span class=\"math\">\\(\\det(xI - A) = \\det( P^{-1}(xI - B)P)= \\det(P)^{-1}\\det(xI - B)\\det(P) = \\det(xI - B)\\)</span>.</p>\n<p>This equality means precisely that the characteristic polynomials for <em>A</em> and <em>B</em> are identical. Since the eigenvalues of a matrix are the zeros of its characteristic polynomial, and the characteristic polynomials for <em>A</em> and <em>B</em> are identical, we conclude that the eigenvalues of <em>A</em> and <em>B</em> are the same.</p>\n"
+    ], 
+    "sols_latex": [
+        "The statement is true: If \\emph{A} and \\emph{B} are similar, then there\nis an invertible matrix \\emph{P} for which $A = P^{-1}B P$. Then we can\nwrite\n\n\\begin{align*}\nxI - A &= xI - P^{-1}B P \\\\\n&= P^{-1}(xI -B)P.\n\\end{align*}\n\nTherefore we compute that\n\n$\\det(xI - A) = \\det( P^{-1}(xI - B)P)= \\det(P)^{-1}\\det(xI - B)\\det(P) = \\det(xI - B)$.\n\nThis equality means precisely that the characteristic polynomials for\n\\emph{A} and \\emph{B} are identical. Since the eigenvalues of a matrix\nare the zeros of its characteristic polynomial, and the characteristic\npolynomials for \\emph{A} and \\emph{B} are identical, we conclude that\nthe eigenvalues of \\emph{A} and \\emph{B} are the same."
+    ], 
+    "sols_raw": [
+        "The statement is true: If ''A'' and ''B'' are similar, then there is an invertible matrix ''P'' for which &lt;math> A = P^{-1}B P &lt;/math>. Then we can write\n\n&lt;math>\n\\begin{align}\nxI - A &amp;= xI - P^{-1}B P \\\\\n&amp;= P^{-1}(xI -B)P.\n\\end{align}\n&lt;/math>\n\nTherefore we compute that\n\n&lt;math> \\det(xI - A) = \\det( P^{-1}(xI - B)P)= \\det(P)^{-1}\\det(xI - B)\\det(P) = \\det(xI - B) &lt;/math>.\n\nThis equality means precisely that the characteristic polynomials for ''A'' and ''B'' are identical. Since the eigenvalues of a matrix are the zeros of its characteristic polynomial, and the characteristic polynomials for ''A'' and ''B'' are identical, we conclude that the eigenvalues of ''A'' and ''B'' are the same."
+    ], 
+    "solvers": [
+        "MalcolmBowles"
+    ], 
+    "statement_html": "<p>True or false (explain your answer): If <em>A</em> and <em>B</em> are similar matrices, then <em>A</em> and <em>B</em> have the same eigenvalues.</p>\n", 
+    "statement_latex": "True or false (explain your answer): If \\emph{A} and \\emph{B} are\nsimilar matrices, then \\emph{A} and \\emph{B} have the same eigenvalues.", 
+    "statement_raw": "True or false (explain your answer): If ''A'' and ''B'' are similar matrices, then ''A'' and ''B'' have the same eigenvalues.", 
+    "term": "December", 
+    "topic_suggest": [
+        "Determinants"
+    ], 
+    "topics": [
+        "Eigenvalues_and_eigenvectors"
+    ], 
+    "url": "http://wiki.ubc.ca/Science:Math_Exam_Resources/Courses/MATH221/December_2008/Question_07_(b)", 
+    "year": 2008
+}

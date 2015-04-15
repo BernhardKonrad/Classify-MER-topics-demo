@@ -1,0 +1,48 @@
+{
+    "ID": "UBC+MATH221+December_2009+10_(a)", 
+    "answer_html": "<p>we need to have <span class=\"math\">\\(\\frac{1}{3}=\\frac{2}{a}\\)</span> Solve this to get <span class=\"math\">\\(a=6\\)</span>.</p>\n", 
+    "answer_latex": "we need to have $\\frac{1}{3}=\\frac{2}{a}$ Solve this to get $a=6$.", 
+    "course": "MATH221", 
+    "flags": [
+        "QGQ", 
+        "CH", 
+        "RS", 
+        "RT"
+    ], 
+    "hints_html": [
+        "<p>No content found.</p>\n"
+    ], 
+    "hints_latex": [
+        "No content found."
+    ], 
+    "hints_raw": [
+        "No content found."
+    ], 
+    "num_votes": 0, 
+    "question": "10 (a)", 
+    "rating": -1, 
+    "sols_html": [
+        "<p>For an <em>n</em> by <em>n</em> matrix to be diagonalizable, the matrix must have n distinct eigenvectors. First let<span class=\"math\">\\(^{\\prime}\\)</span>s find the eigenvalues of a</p>\n<p><span class=\"math\">\\(\\text{det}(\\begin{bmatrix}\n0-\\lambda &amp;1 &amp;2 \\\\ \n0 &amp;3-\\lambda &amp;a \\\\ \n0 &amp;0 &amp;0-\\lambda \n\\end{bmatrix})=\\lambda^{2}(3-\\lambda)=0\\)</span></p>\n<p>Solve the equation above to get <span class=\"math\">\\(\\displaystyle \\lambda _{1}=3,\\lambda _{2}=\\lambda_{3}=0\\)</span></p>\n<p>We got a double root here, so we need to have 2 corresponding eigenvectors for <span class=\"math\">\\(\\lambda=0\\)</span>. When</p>\n<p><span class=\"math\">\\(\\displaystyle \\lambda=0,A-\\lambda I= \\begin{bmatrix}\n0 &amp;1 &amp;2 \\\\ \n0 &amp;3 &amp;a \\\\ \n0 &amp;0 &amp;0 \n\\end{bmatrix}\\)</span></p>\n<p>In order to have 2 eigenvectors, we need to have 2 free variables here i.e. we need to have <span class=\"math\">\\(\\frac{1}{3}=\\frac{2}{a}\\)</span> Solve this to get <span class=\"math\">\\(a=6\\)</span>.</p>\n"
+    ], 
+    "sols_latex": [
+        "For an \\emph{n} by \\emph{n} matrix to be diagonalizable, the matrix must\nhave n distinct eigenvectors. First let$^{\\prime}$s find the eigenvalues\nof a\n\n$\\text{det}(\\begin{bmatrix}\n0-\\lambda &1 &2 \\\\ \n0 &3-\\lambda &a \\\\ \n0 &0 &0-\\lambda \n\\end{bmatrix})=\\lambda^{2}(3-\\lambda)=0$\n\nSolve the equation above to get\n$\\displaystyle \\lambda _{1}=3,\\lambda _{2}=\\lambda_{3}=0$\n\nWe got a double root here, so we need to have 2 corresponding\neigenvectors for $\\lambda=0$. When\n\n$\\displaystyle \\lambda=0,A-\\lambda I= \\begin{bmatrix}\n0 &1 &2 \\\\ \n0 &3 &a \\\\ \n0 &0 &0 \n\\end{bmatrix}$\n\nIn order to have 2 eigenvectors, we need to have 2 free variables here\ni.e. we need to have $\\frac{1}{3}=\\frac{2}{a}$ Solve this to get $a=6$."
+    ], 
+    "sols_raw": [
+        "For an ''n'' by  ''n'' matrix to be diagonalizable, the matrix must have n distinct eigenvectors. First let\u2019s find the eigenvalues of a \n\n&lt;math>\\text{det}(\\begin{bmatrix}\n0-\\lambda &amp;1 &amp;2 \\\\ \n0 &amp;3-\\lambda &amp;a \\\\ \n0 &amp;0 &amp;0-\\lambda \n\\end{bmatrix})=\\lambda^{2}(3-\\lambda)=0&lt;/math> \n\nSolve the equation above to get &lt;math>\\displaystyle \\lambda _{1}=3,\\lambda _{2}=\\lambda_{3}=0&lt;/math> \n\nWe got a double root here, so we need to have 2 corresponding eigenvectors for &lt;math>\\lambda=0&lt;/math>. When \n\n&lt;math>\\displaystyle \\lambda=0,A-\\lambda I= \\begin{bmatrix}\n0 &amp;1 &amp;2 \\\\ \n0 &amp;3 &amp;a \\\\ \n0 &amp;0 &amp;0 \n\\end{bmatrix}&lt;/math> \n\nIn order to have 2 eigenvectors, we need to have 2 free variables here i.e. we need to have &lt;math>\\frac{1}{3}=\\frac{2}{a}&lt;/math> Solve this to get &lt;math>a=6&lt;/math>."
+    ], 
+    "solvers": [
+        "CarmenBruni"
+    ], 
+    "statement_html": "<p>Find the number <em>a</em> which make the matrix below diagonalizable. (No need to diagonalize them.)</p>\n<p><span class=\"math\">\\(\\begin{bmatrix}\n0 &amp;1 &amp;2 \\\\ \n0 &amp;3 &amp;a \\\\ \n0 &amp;0 &amp;0 \n\\end{bmatrix}\\)</span></p>\n", 
+    "statement_latex": "Find the number \\emph{a} which make the matrix below diagonalizable. (No\nneed to diagonalize them.)\n\n$\\begin{bmatrix}\n0 &1 &2 \\\\ \n0 &3 &a \\\\ \n0 &0 &0 \n\\end{bmatrix}$", 
+    "statement_raw": "Find the number ''a'' which make the matrix below diagonalizable. (No need to diagonalize them.) \n\n&lt;math>\\begin{bmatrix}\n0 &amp;1 &amp;2 \\\\ \n0 &amp;3 &amp;a \\\\ \n0 &amp;0 &amp;0 \n\\end{bmatrix}&lt;/math>", 
+    "term": "December", 
+    "topic_suggest": [
+        "Critical_points_and_intervals_of_increase_and_decrease"
+    ], 
+    "topics": [
+        "Eigenvalues_and_eigenvectors"
+    ], 
+    "url": "http://wiki.ubc.ca/Science:Math_Exam_Resources/Courses/MATH221/December_2009/Question_10_(a)", 
+    "year": 2009
+}

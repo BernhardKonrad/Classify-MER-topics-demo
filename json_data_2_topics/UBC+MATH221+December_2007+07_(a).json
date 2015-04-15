@@ -1,0 +1,51 @@
+{
+    "ID": "UBC+MATH221+December_2007+07_(a)", 
+    "answer_html": "<p>Therefore the determinant of the above matrix is zero, and hence <span class=\"math\">\\(\\det (A - I) = 0\\)</span>.</p>\n", 
+    "answer_latex": "Therefore the determinant of the above\nmatrix is zero, and hence $\\det (A - I) = 0$.", 
+    "contributors": [
+        "Konradbe"
+    ], 
+    "course": "MATH221", 
+    "flags": [
+        "RQ", 
+        "CH", 
+        "RS", 
+        "RT"
+    ], 
+    "hints_html": [
+        "<p>No content found.</p>\n"
+    ], 
+    "hints_latex": [
+        "No content found."
+    ], 
+    "hints_raw": [
+        "No content found."
+    ], 
+    "num_votes": 0, 
+    "question": "7 (a)", 
+    "rating": -1, 
+    "sols_html": [
+        "<p>Recall that 1 is an eigenvalue of <em>A</em> if and only if <span class=\"math\">\\(\\det (A - I) = 0\\)</span>. Therefore it suffices to show that <span class=\"math\">\\(\\det (A - I) = 0\\)</span>. We have</p>\n<p><span class=\"math\">\\(A - I = \\begin{pmatrix} - 1&amp; -4 &amp; -6\\\\ -1 &amp; -1 &amp; -3\\\\ 1 &amp; 2 &amp; 4 \\end{pmatrix}\\)</span></p>\n<p>We would prefer to avoid doing lots of computation by finding the determinant right away here. Instead, recall that adding multiples of one row to another does not change the determinant. Therefore, adding the second row to the third, and then subtracting the first row from the second, yields the matrix</p>\n<p><span class=\"math\">\\(\\begin{pmatrix} - 1&amp; -4 &amp; -6\\\\ 0 &amp; 3 &amp; 3\\\\ 0 &amp; 1 &amp; 1 \\end{pmatrix}\\)</span></p>\n<p>which has the same determinant as <em>A - I</em>. But note that two rows are just multiples of each other. Therefore the determinant of the above matrix is zero, and hence <span class=\"math\">\\(\\det (A - I) = 0\\)</span>.</p>\n"
+    ], 
+    "sols_latex": [
+        "Recall that 1 is an eigenvalue of \\emph{A} if and only if\n$\\det (A - I) = 0$. Therefore it suffices to show that\n$\\det (A - I) = 0$. We have\n\n$A - I = \\begin{pmatrix} - 1& -4 & -6\\\\ -1 & -1 & -3\\\\ 1 & 2 & 4 \\end{pmatrix}$\n\nWe would prefer to avoid doing lots of computation by finding the\ndeterminant right away here. Instead, recall that adding multiples of\none row to another does not change the determinant. Therefore, adding\nthe second row to the third, and then subtracting the first row from the\nsecond, yields the matrix\n\n$\\begin{pmatrix} - 1& -4 & -6\\\\ 0 & 3 & 3\\\\ 0 & 1 & 1 \\end{pmatrix}$\n\nwhich has the same determinant as \\emph{A - I}. But note that two rows\nare just multiples of each other. Therefore the determinant of the above\nmatrix is zero, and hence $\\det (A - I) = 0$."
+    ], 
+    "sols_raw": [
+        "Recall that 1 is an eigenvalue of ''A'' if and only if &lt;math>\\det (A - I) = 0 &lt;/math>. Therefore it suffices to show that  &lt;math>\\det (A - I) = 0 &lt;/math>. We have\n\n&lt;math>\nA - I = \\begin{pmatrix} - 1&amp; -4 &amp; -6\\\\ -1 &amp; -1 &amp; -3\\\\ 1 &amp; 2 &amp; 4 \\end{pmatrix}\n&lt;/math>\n\nWe would prefer to avoid doing lots of computation by finding the determinant right away here. Instead, recall that adding multiples of one row to another does not change the determinant. Therefore, adding the second row to the third, and then subtracting the first row from the second, yields the matrix\n\n&lt;math>\n \\begin{pmatrix} - 1&amp; -4 &amp; -6\\\\ 0 &amp; 3 &amp; 3\\\\ 0 &amp; 1 &amp; 1 \\end{pmatrix}\n&lt;/math>\n\nwhich has the same determinant as ''A - I''. But note that two rows are just multiples of each other. Therefore the determinant of the above matrix is zero, and hence &lt;math>\\det (A - I) = 0 &lt;/math>."
+    ], 
+    "solvers": [
+        "MalcolmBowles"
+    ], 
+    "statement_html": "<p>Consider the matrix <span class=\"math\">\\(A = \\begin{pmatrix} 0 &amp; -4 &amp; -6\\\\ -1 &amp; 0 &amp; -3\\\\ 1 &amp; 2 &amp; 5 \\end{pmatrix}\\)</span>. Verify that 1 is an eigenvalue of <em>A</em>.</p>\n", 
+    "statement_latex": "Consider the matrix\n$A = \\begin{pmatrix} 0 & -4 & -6\\\\ -1 & 0 & -3\\\\ 1 & 2 & 5 \\end{pmatrix}$.\nVerify that 1 is an eigenvalue of \\emph{A}.", 
+    "statement_raw": "Consider the matrix &lt;math> A = \\begin{pmatrix} 0 &amp; -4 &amp; -6\\\\ -1 &amp; 0 &amp; -3\\\\ 1 &amp; 2 &amp; 5 \\end{pmatrix} &lt;/math>. Verify that 1 is an eigenvalue of ''A''.", 
+    "term": "December", 
+    "topic_suggest": [
+        "Determinants"
+    ], 
+    "topics": [
+        "Eigenvalues_and_eigenvectors"
+    ], 
+    "url": "http://wiki.ubc.ca/Science:Math_Exam_Resources/Courses/MATH221/December_2007/Question_07_(a)", 
+    "year": 2007
+}

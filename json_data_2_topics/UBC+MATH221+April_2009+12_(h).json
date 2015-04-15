@@ -1,0 +1,49 @@
+{
+    "ID": "UBC+MATH221+April_2009+12_(h)", 
+    "answer_html": "<p>However, clearly <em>A</em> has only one linearly independent column, so <span class=\"math\">\\(\\text{Rank}(A) = \\#\\text{ of distinct eigenvalues.}\\)</span></p>\n", 
+    "answer_latex": "However,\nclearly \\emph{A} has only one linearly independent column, so\n$\\text{Rank}(A) = \\#\\text{ of distinct eigenvalues.}$", 
+    "contributors": [
+        "MalcolmBowles"
+    ], 
+    "course": "MATH221", 
+    "flags": [
+        "QGQ", 
+        "CH", 
+        "RS", 
+        "RT"
+    ], 
+    "hints_html": [
+        "<p>No content found.</p>\n"
+    ], 
+    "hints_latex": [
+        "No content found."
+    ], 
+    "hints_raw": [
+        "No content found."
+    ], 
+    "num_votes": 0, 
+    "question": "12 (h)", 
+    "rating": -1, 
+    "sols_html": [
+        "<p>The answer is <strong>false</strong>. Consider the matrix</p>\n<p><span class=\"math\">\\(A = \\begin{pmatrix}\n1 &amp; 0 \\\\\n0 &amp; 0\n\\end{pmatrix}.\\)</span></p>\n<p><em>A</em> has two distinct eigenvalues, <em>0</em> and <em>1</em>. However, clearly <em>A</em> has only one linearly independent column, so <span class=\"math\">\\(\\text{Rank}(A) = 1 &lt; 2 = \\#\\text{ of distinct eigenvalues.}\\)</span></p>\n"
+    ], 
+    "sols_latex": [
+        "The answer is \\textbf{false}. Consider the matrix\n\n$A = \\begin{pmatrix}\n1 & 0 \\\\\n0 & 0\n\\end{pmatrix}.$\n\n\\emph{A} has two distinct eigenvalues, \\emph{0} and \\emph{1}. However,\nclearly \\emph{A} has only one linearly independent column, so\n$\\text{Rank}(A) = 1 < 2 = \\#\\text{ of distinct eigenvalues.}$"
+    ], 
+    "sols_raw": [
+        "The answer is '''false'''.  Consider the matrix \n\n&lt;math>\nA = \\begin{pmatrix}\n1 &amp; 0 \\\\\n0 &amp; 0\n\\end{pmatrix}.\n&lt;/math>\n\n''A'' has two distinct eigenvalues, ''0'' and ''1''.  However, clearly ''A'' has only one linearly independent column, so &lt;math>\\text{Rank}(A) = 1 &lt; 2 = \\#\\text{ of distinct eigenvalues.} &lt;/math>"
+    ], 
+    "solvers": [
+        "CarmenBruni"
+    ], 
+    "statement_html": "<p>If a matrix <em>A</em> has <span class=\"math\">\\(k\\)</span> distinct eigenvalues, then <span class=\"math\">\\(\\text{Rank}(A) \\geq k\\)</span>.</p>\n", 
+    "statement_latex": "If a matrix \\emph{A} has $k$ distinct eigenvalues, then\n$\\text{Rank}(A) \\geq k$.", 
+    "statement_raw": "If a matrix ''A'' has &lt;math>k&lt;/math> distinct eigenvalues, then &lt;math>\\text{Rank}(A) \\geq k&lt;/math>.", 
+    "term": "April", 
+    "topic_suggest": [], 
+    "topics": [
+        "Eigenvalues_and_eigenvectors"
+    ], 
+    "url": "http://wiki.ubc.ca/Science:Math_Exam_Resources/Courses/MATH221/April_2009/Question_12_(h)", 
+    "year": 2009
+}

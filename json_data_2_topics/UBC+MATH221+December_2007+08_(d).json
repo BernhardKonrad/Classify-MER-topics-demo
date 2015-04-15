@@ -1,0 +1,51 @@
+{
+    "ID": "UBC+MATH221+December_2007+08_(d)", 
+    "answer_html": "<p>As a basis of <span class=\"math\">\\(\\mathbb{R}^2\\)</span> consists of two linearly independent vectors, there exists no basis consisting of eigenvectors of <em>T</em>.</p>\n", 
+    "answer_latex": "As a basis of $\\mathbb{R}^2$ consists of two linearly independent\nvectors, there exists no basis consisting of eigenvectors of \\emph{T}.", 
+    "contributors": [
+        "Konradbe"
+    ], 
+    "course": "MATH221", 
+    "flags": [
+        "RQ", 
+        "CH", 
+        "RS", 
+        "RT"
+    ], 
+    "hints_html": [
+        "<p>No content found.</p>\n"
+    ], 
+    "hints_latex": [
+        "No content found."
+    ], 
+    "hints_raw": [
+        "No content found."
+    ], 
+    "num_votes": 0, 
+    "question": "8 (d)", 
+    "rating": -1, 
+    "sols_html": [
+        "<p>No such basis exists.</p>\n<p>Note that 1 is the only eigenvalue for <em>T</em>, as the characteristic polynomial is <span class=\"math\">\\((\\lambda - 1)^2\\)</span>. To determine the eigenvectors corresponding to the eigenvalue 1, we solve the corresponding equation</p>\n<p><span class=\"math\">\\(\\begin{pmatrix}0 &amp; 0\\\\ 2/3 &amp; 0\\end{pmatrix}\\begin{pmatrix}x\\\\y\\end{pmatrix} = \\begin{pmatrix}0\\\\0\\end{pmatrix}.\\)</span></p>\n<p>Thus <span class=\"math\">\\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\)</span> is an eigenvector for <em>T</em> if and only if <em>x = 0</em>. This means that there is only <strong>one</strong> linearly independent eigenvector, namely <span class=\"math\">\\(\\begin{pmatrix}0\\\\1\\end{pmatrix}\\)</span>.</p>\n<p>As a basis of <span class=\"math\">\\(\\mathbb{R}^2\\)</span> consists of two linearly independent vectors, there exists no basis consisting of eigenvectors of <em>T</em>.</p>\n"
+    ], 
+    "sols_latex": [
+        "No such basis exists.\n\nNote that 1 is the only eigenvalue for \\emph{T}, as the characteristic\npolynomial is $(\\lambda - 1)^2$. To determine the eigenvectors\ncorresponding to the eigenvalue 1, we solve the corresponding equation\n\n$\\begin{pmatrix}0 & 0\\\\ 2/3 & 0\\end{pmatrix}\\begin{pmatrix}x\\\\y\\end{pmatrix} = \\begin{pmatrix}0\\\\0\\end{pmatrix}.$\n\nThus $\\begin{pmatrix}x\\\\y\\end{pmatrix}$ is an eigenvector for \\emph{T}\nif and only if \\emph{x = 0}. This means that there is only \\textbf{one}\nlinearly independent eigenvector, namely\n$\\begin{pmatrix}0\\\\1\\end{pmatrix}$.\n\nAs a basis of $\\mathbb{R}^2$ consists of two linearly independent\nvectors, there exists no basis consisting of eigenvectors of \\emph{T}."
+    ], 
+    "sols_raw": [
+        "No such basis exists.\n\nNote that 1 is the only eigenvalue for ''T'', as the characteristic polynomial is &lt;math>(\\lambda - 1)^2&lt;/math>. To determine the eigenvectors corresponding to the eigenvalue 1, we solve the corresponding equation\n\n&lt;math>\n\\begin{pmatrix}0 &amp; 0\\\\ 2/3 &amp; 0\\end{pmatrix}\\begin{pmatrix}x\\\\y\\end{pmatrix} = \\begin{pmatrix}0\\\\0\\end{pmatrix}.\n&lt;/math>\n\nThus &lt;math>\\begin{pmatrix}x\\\\y\\end{pmatrix} &lt;/math> is an eigenvector for ''T'' if and only if ''x = 0''. This means that there is only '''one''' linearly independent eigenvector, namely &lt;math>\\begin{pmatrix}0\\\\1\\end{pmatrix} &lt;/math>. \n\nAs a basis of &lt;math>\\mathbb{R}^2&lt;/math> consists of two linearly independent vectors, there exists no basis consisting of eigenvectors of ''T''."
+    ], 
+    "solvers": [
+        "MalcolmBowles"
+    ], 
+    "statement_html": "<p>Let <span class=\"math\">\\(T: \\mathbb{R}^2 \\to \\mathbb{R}^2\\)</span> be the linear map whose matrix is given by <span class=\"math\">\\(\\begin{pmatrix} 1 &amp; 0\\\\ 2/3 &amp; 1 \\end{pmatrix}\\)</span> (a <em>shear</em> in the <em>y</em>-direction). Find a basis of <span class=\"math\">\\(\\mathbb{R}^2\\)</span> consisting of eigenvalues of <em>T</em>, or explain why this is not possible.</p>\n", 
+    "statement_latex": "Let $T: \\mathbb{R}^2 \\to \\mathbb{R}^2$ be the linear map whose matrix is\ngiven by $\\begin{pmatrix} 1 & 0\\\\ 2/3 & 1 \\end{pmatrix}$ (a \\emph{shear}\nin the \\emph{y}-direction). Find a basis of $\\mathbb{R}^2$ consisting of\neigenvalues of \\emph{T}, or explain why this is not possible.", 
+    "statement_raw": "Let &lt;math> T: \\mathbb{R}^2 \\to \\mathbb{R}^2 &lt;/math> be the linear map whose matrix is given by &lt;math> \\begin{pmatrix} 1 &amp; 0\\\\ 2/3 &amp; 1 \\end{pmatrix}&lt;/math> (a ''shear'' in the ''y''-direction).  Find a basis of &lt;math>\\mathbb{R}^2&lt;/math> consisting of eigenvalues of ''T'', or explain why this is not possible.", 
+    "term": "December", 
+    "topic_suggest": [
+        "Solid_of_revolution"
+    ], 
+    "topics": [
+        "Eigenvalues_and_eigenvectors"
+    ], 
+    "url": "http://wiki.ubc.ca/Science:Math_Exam_Resources/Courses/MATH221/December_2007/Question_08_(d)", 
+    "year": 2007
+}

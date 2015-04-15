@@ -1,0 +1,52 @@
+{
+    "ID": "UBC+MATH221+April_2009+12_(j)", 
+    "answer_html": "<p>Hence <em>v</em> is also an eigenvector of <em>2A</em> (corresponding to the eigenvalue <span class=\"math\">\\(2\\lambda\\)</span>).</p>\n", 
+    "answer_latex": "Hence \\emph{v} is also an eigenvector of \\emph{2A} (corresponding to the\neigenvalue $2\\lambda$).", 
+    "contributors": [
+        "Konradbe", 
+        "MalcolmBowles"
+    ], 
+    "course": "MATH221", 
+    "flags": [
+        "QGQ", 
+        "CH", 
+        "QGS", 
+        "QGT"
+    ], 
+    "hints_html": [
+        "<p>No content found.</p>\n"
+    ], 
+    "hints_latex": [
+        "No content found."
+    ], 
+    "hints_raw": [
+        "No content found."
+    ], 
+    "num_votes": 0, 
+    "question": "12 (j)", 
+    "rating": -1, 
+    "sols_html": [
+        "<p>The answer is <strong>true</strong>. Suppose <em>v</em> is an eigenvector of <em>A</em> with corresponding eigenvalue <span class=\"math\">\\(\\lambda\\)</span>. This means that</p>\n<p><span class=\"math\">\\(A v = \\lambda v\\)</span>.</p>\n<p>Then, multiplying by <em>2</em>, we find</p>\n<p><span class=\"math\">\\((2A)v = (2\\lambda)v\\)</span>.</p>\n<p>Hence <em>v</em> is also an eigenvector of <em>2A</em> (corresponding to the eigenvalue <span class=\"math\">\\(2\\lambda\\)</span>).</p>\n"
+    ], 
+    "sols_latex": [
+        "The answer is \\textbf{true}. Suppose \\emph{v} is an eigenvector of\n\\emph{A} with corresponding eigenvalue $\\lambda$. This means that\n\n$A v = \\lambda v$.\n\nThen, multiplying by \\emph{2}, we find\n\n$(2A)v = (2\\lambda)v$.\n\nHence \\emph{v} is also an eigenvector of \\emph{2A} (corresponding to the\neigenvalue $2\\lambda$)."
+    ], 
+    "sols_raw": [
+        "The answer is '''true'''. Suppose ''v'' is an eigenvector of ''A'' with corresponding eigenvalue &lt;math>\\lambda &lt;/math>. This means that\n\n&lt;math>\nA v = \\lambda v\n&lt;/math>.\n\nThen, multiplying by ''2'', we find\n\n&lt;math>\n(2A)v = (2\\lambda)v\n&lt;/math>.\n\nHence ''v'' is also an eigenvector of ''2A'' (corresponding to the eigenvalue &lt;math> 2\\lambda &lt;/math>)."
+    ], 
+    "solvers": [
+        "CarmenBruni"
+    ], 
+    "statement_html": "<p>If <em>v</em> is an eigenvector of <em>A</em>, then <em>v</em> is also an eigenvector of <em>2A</em>.</p>\n", 
+    "statement_latex": "If \\emph{v} is an eigenvector of \\emph{A}, then \\emph{v} is also an\neigenvector of \\emph{2A}.", 
+    "statement_raw": "If ''v'' is an eigenvector of ''A'', then ''v'' is also an eigenvector of ''2A''.", 
+    "term": "April", 
+    "topic_suggest": [
+        "Divisibility"
+    ], 
+    "topics": [
+        "Eigenvalues_and_eigenvectors"
+    ], 
+    "url": "http://wiki.ubc.ca/Science:Math_Exam_Resources/Courses/MATH221/April_2009/Question_12_(j)", 
+    "year": 2009
+}

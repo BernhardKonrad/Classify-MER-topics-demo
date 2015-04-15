@@ -1,0 +1,51 @@
+{
+    "ID": "UBC+MATH221+December_2007+08_(c)", 
+    "answer_html": "<p>In particular, the standard basis <span class=\"math\">\\(\\{\\begin{pmatrix}1\\\\0\\end{pmatrix}, \\begin{pmatrix} 0\\\\1\\end{pmatrix}\\}\\)</span> is a basis of <span class=\"math\">\\(\\mathbb{R}^2\\)</span> consisting of eigenvectors of <em>T</em>.</p>\n", 
+    "answer_latex": "In particular, the standard basis\n$\\{\\begin{pmatrix}1\\\\0\\end{pmatrix}, \\begin{pmatrix} 0\\\\1\\end{pmatrix}\\}$\nis a basis of $\\mathbb{R}^2$ consisting of eigenvectors of \\emph{T}.", 
+    "contributors": [
+        "Konradbe"
+    ], 
+    "course": "MATH221", 
+    "flags": [
+        "RQ", 
+        "CH", 
+        "RS", 
+        "RT"
+    ], 
+    "hints_html": [
+        "<p>No content found.</p>\n"
+    ], 
+    "hints_latex": [
+        "No content found."
+    ], 
+    "hints_raw": [
+        "No content found."
+    ], 
+    "num_votes": 0, 
+    "question": "8 (c)", 
+    "rating": -1, 
+    "sols_html": [
+        "<p>Note that every non-zero vector in <span class=\"math\">\\(\\mathbb{R}^2\\)</span> is an eigenvector for <em>T</em> (corresponding to the eigenvalue 5).</p>\n<p>In particular, the standard basis <span class=\"math\">\\(\\{\\begin{pmatrix}1\\\\0\\end{pmatrix}, \\begin{pmatrix} 0\\\\1\\end{pmatrix}\\}\\)</span> is a basis of <span class=\"math\">\\(\\mathbb{R}^2\\)</span> consisting of eigenvectors of <em>T</em>.</p>\n"
+    ], 
+    "sols_latex": [
+        "Note that every non-zero vector in $\\mathbb{R}^2$ is an eigenvector for\n\\emph{T} (corresponding to the eigenvalue 5).\n\nIn particular, the standard basis\n$\\{\\begin{pmatrix}1\\\\0\\end{pmatrix}, \\begin{pmatrix} 0\\\\1\\end{pmatrix}\\}$\nis a basis of $\\mathbb{R}^2$ consisting of eigenvectors of \\emph{T}."
+    ], 
+    "sols_raw": [
+        "Note that every non-zero vector in &lt;math>\\mathbb{R}^2 &lt;/math> is an eigenvector for ''T'' (corresponding to the eigenvalue 5). \n\nIn particular, the standard basis &lt;math>\\{\\begin{pmatrix}1\\\\0\\end{pmatrix}, \\begin{pmatrix} 0\\\\1\\end{pmatrix}\\} &lt;/math> is a basis of &lt;math>\\mathbb{R}^2 &lt;/math> consisting of eigenvectors of ''T''."
+    ], 
+    "solvers": [
+        "MalcolmBowles"
+    ], 
+    "statement_html": "<p>Let <span class=\"math\">\\(T: \\mathbb{R}^2 \\to \\mathbb{R}^2\\)</span> be the linear map given by <span class=\"math\">\\(T(v) = 5v\\)</span>, for all <span class=\"math\">\\(v \\in \\mathbb{R}^2\\)</span> (<em>T</em> is a <em>dilation</em>). Find a basis of <span class=\"math\">\\(\\mathbb{R}^2\\)</span> consisting of eigenvalues of <em>T</em>, or explain why this is not possible.</p>\n", 
+    "statement_latex": "Let $T: \\mathbb{R}^2 \\to \\mathbb{R}^2$ be the linear map given by\n$T(v) = 5v$, for all $v \\in \\mathbb{R}^2$ (\\emph{T} is a\n\\emph{dilation}). Find a basis of $\\mathbb{R}^2$ consisting of\neigenvalues of \\emph{T}, or explain why this is not possible.", 
+    "statement_raw": "Let &lt;math> T: \\mathbb{R}^2 \\to \\mathbb{R}^2 &lt;/math> be the linear map  given by &lt;math> T(v) = 5v &lt;/math>, for all &lt;math> v \\in \\mathbb{R}^2 &lt;/math> (''T'' is a ''dilation'').  Find a basis of &lt;math>\\mathbb{R}^2&lt;/math> consisting of eigenvalues of ''T'', or explain why this is not possible.", 
+    "term": "December", 
+    "topic_suggest": [
+        "Matrix_operations"
+    ], 
+    "topics": [
+        "Eigenvalues_and_eigenvectors"
+    ], 
+    "url": "http://wiki.ubc.ca/Science:Math_Exam_Resources/Courses/MATH221/December_2007/Question_08_(c)", 
+    "year": 2007
+}

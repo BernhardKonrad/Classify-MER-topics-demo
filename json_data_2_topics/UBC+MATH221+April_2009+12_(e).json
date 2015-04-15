@@ -1,0 +1,51 @@
+{
+    "ID": "UBC+MATH221+April_2009+12_(e)", 
+    "answer_html": "<p>So <span class=\"math\">\\(v_1 + v_2\\)</span> is not an eigenvector of <em>A</em>.</p>\n", 
+    "answer_latex": "So $v_1 + v_2$\nis not an eigenvector of \\emph{A}.", 
+    "contributors": [
+        "MalcolmBowles"
+    ], 
+    "course": "MATH221", 
+    "flags": [
+        "QGQ", 
+        "CH", 
+        "RS", 
+        "RT"
+    ], 
+    "hints_html": [
+        "<p>No content found.</p>\n"
+    ], 
+    "hints_latex": [
+        "No content found."
+    ], 
+    "hints_raw": [
+        "No content found."
+    ], 
+    "num_votes": 0, 
+    "question": "12 (e)", 
+    "rating": -1, 
+    "sols_html": [
+        "<p>The answer is <strong>false</strong>.</p>\n<p>The motivation for why it should be false is as follows: Let <span class=\"math\">\\(v_1, v_2\\)</span> be two eigenvectors of <em>A</em> with respective eigenvalues <span class=\"math\">\\(\\lambda_1, \\lambda _2\\)</span>. Then <span class=\"math\">\\(A(v_1 + v_2) = Av_1 + Av_2 = \\lambda_1v_1 + \\lambda_2 v_2\\)</span>. So unless <span class=\"math\">\\(\\lambda_1 = \\lambda_2\\)</span>, <span class=\"math\">\\(v_1 + v_2\\)</span> will <strong>not</strong> be an eigenvector.</p>\n<p>The above observation will guide us in our construction of a counterexample. Consider</p>\n<p><span class=\"math\">\\(A\n=\n\\begin{pmatrix}\n1 &amp; 0\\\\\n0 &amp; 2\n\\end{pmatrix}.\\)</span></p>\n<p>The eigenvalues of <em>A</em> are <em>1</em> and <em>2</em> with corresponding eigenvectors <span class=\"math\">\\(v_1 = \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}\\)</span> and <span class=\"math\">\\(v_2 = \\begin{pmatrix} 0 \\\\ 1 \\end{pmatrix}\\)</span>.</p>\n<p>However, as discussed above, <span class=\"math\">\\(A(v_1 + v_2) = v_1 + 2v_2\\)</span>. So <span class=\"math\">\\(v_1 + v_2\\)</span> is not an eigenvector of <em>A</em>.</p>\n"
+    ], 
+    "sols_latex": [
+        "The answer is \\textbf{false}.\n\nThe motivation for why it should be false is as follows: Let $v_1, v_2$\nbe two eigenvectors of \\emph{A} with respective eigenvalues\n$\\lambda_1, \\lambda _2$. Then\n$A(v_1 + v_2) = Av_1 + Av_2 = \\lambda_1v_1 + \\lambda_2 v_2$. So unless\n$\\lambda_1 = \\lambda_2$, $v_1 + v_2$ will \\textbf{not} be an\neigenvector.\n\nThe above observation will guide us in our construction of a\ncounterexample. Consider\n\n$A\n=\n\\begin{pmatrix}\n1 & 0\\\\\n0 & 2\n\\end{pmatrix}.$\n\nThe eigenvalues of \\emph{A} are \\emph{1} and \\emph{2} with corresponding\neigenvectors $v_1 = \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$ and\n$v_2 = \\begin{pmatrix} 0 \\\\ 1 \\end{pmatrix}$.\n\nHowever, as discussed above, $A(v_1 + v_2) = v_1 + 2v_2$. So $v_1 + v_2$\nis not an eigenvector of \\emph{A}."
+    ], 
+    "sols_raw": [
+        "The answer is '''false'''. \n\nThe motivation for why it should be false is as follows: Let &lt;math> v_1, v_2 &lt;/math> be two eigenvectors of ''A'' with respective eigenvalues &lt;math> \\lambda_1, \\lambda _2 &lt;/math>. Then &lt;math> A(v_1 + v_2) = Av_1 + Av_2 = \\lambda_1v_1 + \\lambda_2 v_2 &lt;/math>. So unless &lt;math> \\lambda_1 = \\lambda_2 &lt;/math>, &lt;math> v_1 + v_2 &lt;/math> will '''not''' be an eigenvector.\n\nThe above observation will guide us in our construction of a counterexample. Consider\n\n&lt;math>\nA\n=\n\\begin{pmatrix}\n1 &amp; 0\\\\\n0 &amp; 2\n\\end{pmatrix}.\n&lt;/math>\n\nThe eigenvalues of ''A'' are ''1'' and ''2'' with corresponding eigenvectors &lt;math> v_1 = \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix} &lt;/math> and &lt;math> v_2 = \\begin{pmatrix} 0 \\\\ 1 \\end{pmatrix} &lt;/math>. \n\nHowever, as discussed above, &lt;math>  A(v_1 + v_2) = v_1 + 2v_2 &lt;/math>. So &lt;math> v_1 + v_2 &lt;/math> is not an eigenvector of ''A''."
+    ], 
+    "solvers": [
+        "CarmenBruni"
+    ], 
+    "statement_html": "<p>The sum of two eigenvectors of A is again an eigenvector of A.</p>\n", 
+    "statement_latex": "The sum of two eigenvectors of A is again an eigenvector of A.", 
+    "statement_raw": "The sum of two eigenvectors of A is again an eigenvector of A.", 
+    "term": "April", 
+    "topic_suggest": [
+        "Divisibility"
+    ], 
+    "topics": [
+        "Eigenvalues_and_eigenvectors"
+    ], 
+    "url": "http://wiki.ubc.ca/Science:Math_Exam_Resources/Courses/MATH221/April_2009/Question_12_(e)", 
+    "year": 2009
+}

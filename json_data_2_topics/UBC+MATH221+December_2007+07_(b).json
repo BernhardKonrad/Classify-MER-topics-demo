@@ -1,0 +1,51 @@
+{
+    "ID": "UBC+MATH221+December_2007+07_(b)", 
+    "answer_html": "<p>Therefore, the other eigenvalue of <em>A</em> is 2.</p>\n", 
+    "answer_latex": "Therefore, the other eigenvalue of \\emph{A} is 2.", 
+    "contributors": [
+        "Konradbe"
+    ], 
+    "course": "MATH221", 
+    "flags": [
+        "RQ", 
+        "CH", 
+        "RS", 
+        "RT"
+    ], 
+    "hints_html": [
+        "<p>No content found.</p>\n"
+    ], 
+    "hints_latex": [
+        "No content found."
+    ], 
+    "hints_raw": [
+        "No content found."
+    ], 
+    "num_votes": 0, 
+    "question": "7 (b)", 
+    "rating": -1, 
+    "sols_html": [
+        "<p>We already verified that 1 is an eigenvalue of <em>A</em> in part (a). To determine other possible eigenvalues, we solve <span class=\"math\">\\(\\det(A - \\lambda I) = 0\\)</span> for <span class=\"math\">\\(\\lambda\\)</span>. We have</p>\n<p><span class=\"math\">\\(A - \\lambda I = \\begin{pmatrix} - \\lambda &amp; -4 &amp; -6\\\\ -1 &amp; -\\lambda &amp; -3\\\\ 1 &amp; 2 &amp; 5 - \\lambda \\end{pmatrix}\\)</span></p>\n<p>Let us make use of the fact that adding multiples of one row to another does not change the determinant to avoid lots of computation. Adding the second row of <span class=\"math\">\\(A - \\lambda I\\)</span> to the third, while subtracting <span class=\"math\">\\(\\lambda\\)</span> times the second row from the first, yields the matrix</p>\n<p><span class=\"math\">\\(B =  \\begin{pmatrix}0 &amp; \\lambda^2-4 &amp; 3\\lambda -6\\\\ -1 &amp; -\\lambda &amp; -3\\\\ 0 &amp; 2-\\lambda &amp; 2-\\lambda \\end{pmatrix} =  \\begin{pmatrix}0 &amp; (\\lambda + 2)(\\lambda - 2) &amp; 3(\\lambda -2)\\\\ -1 &amp; -\\lambda &amp; -3\\\\ 0 &amp; 2-\\lambda &amp; 2-\\lambda \\end{pmatrix}\\)</span></p>\n<p>which has the same determinant has <span class=\"math\">\\(A - \\lambda I\\)</span>. By expanding down the first column, the determinant is</p>\n<p><span class=\"math\">\\(\\det(A - \\lambda I) = \\det B = (\\lambda + 2)(\\lambda - 2)(2 - \\lambda) - 3(\\lambda - 2)(2 - \\lambda) = (\\lambda - 2)^2(1 - \\lambda)\\)</span></p>\n<p>Therefore, the other eigenvalue of <em>A</em> is 2.</p>\n"
+    ], 
+    "sols_latex": [
+        "We already verified that 1 is an eigenvalue of \\emph{A} in part (a). To\ndetermine other possible eigenvalues, we solve $\\det(A - \\lambda I) = 0$\nfor $\\lambda$. We have\n\n$A - \\lambda I = \\begin{pmatrix} - \\lambda & -4 & -6\\\\ -1 & -\\lambda & -3\\\\ 1 & 2 & 5 - \\lambda \\end{pmatrix}$\n\nLet us make use of the fact that adding multiples of one row to another\ndoes not change the determinant to avoid lots of computation. Adding the\nsecond row of $A - \\lambda I$ to the third, while subtracting $\\lambda$\ntimes the second row from the first, yields the matrix\n\n$B =  \\begin{pmatrix}0 & \\lambda^2-4 & 3\\lambda -6\\\\ -1 & -\\lambda & -3\\\\ 0 & 2-\\lambda & 2-\\lambda \\end{pmatrix} =  \\begin{pmatrix}0 & (\\lambda + 2)(\\lambda - 2) & 3(\\lambda -2)\\\\ -1 & -\\lambda & -3\\\\ 0 & 2-\\lambda & 2-\\lambda \\end{pmatrix}$\n\nwhich has the same determinant has $A - \\lambda I$. By expanding down\nthe first column, the determinant is\n\n$\\det(A - \\lambda I) = \\det B = (\\lambda + 2)(\\lambda - 2)(2 - \\lambda) - 3(\\lambda - 2)(2 - \\lambda) = (\\lambda - 2)^2(1 - \\lambda)$\n\nTherefore, the other eigenvalue of \\emph{A} is 2."
+    ], 
+    "sols_raw": [
+        "We already verified that 1 is an eigenvalue of ''A'' in part (a). To determine other possible eigenvalues, we solve &lt;math>\\det(A - \\lambda I) = 0 &lt;/math> for &lt;math>\\lambda &lt;/math>. We have\n\n&lt;math>\nA - \\lambda I = \\begin{pmatrix} - \\lambda &amp; -4 &amp; -6\\\\ -1 &amp; -\\lambda &amp; -3\\\\ 1 &amp; 2 &amp; 5 - \\lambda \\end{pmatrix}\n&lt;/math>\n\nLet us make use of the fact that adding multiples of one row to another does not change the determinant to avoid lots of computation. Adding the second row of &lt;math>A - \\lambda I &lt;/math> to the third, while subtracting &lt;math>\\lambda&lt;/math> times the second row from the first, yields the matrix\n\n&lt;math>\nB =  \\begin{pmatrix}0 &amp; \\lambda^2-4 &amp; 3\\lambda -6\\\\ -1 &amp; -\\lambda &amp; -3\\\\ 0 &amp; 2-\\lambda &amp; 2-\\lambda \\end{pmatrix} =  \\begin{pmatrix}0 &amp; (\\lambda + 2)(\\lambda - 2) &amp; 3(\\lambda -2)\\\\ -1 &amp; -\\lambda &amp; -3\\\\ 0 &amp; 2-\\lambda &amp; 2-\\lambda \\end{pmatrix}\n&lt;/math>\n\nwhich has the same determinant has &lt;math>A - \\lambda I &lt;/math>. By expanding down the first column, the determinant is\n\n&lt;math>\n\\det(A - \\lambda I) = \\det B = (\\lambda + 2)(\\lambda - 2)(2 - \\lambda) - 3(\\lambda - 2)(2 - \\lambda) = (\\lambda - 2)^2(1 - \\lambda)\n&lt;/math>\n\nTherefore, the other eigenvalue of ''A'' is 2."
+    ], 
+    "solvers": [
+        "MalcolmBowles"
+    ], 
+    "statement_html": "<p>Consider the matrix <span class=\"math\">\\(A = \\begin{pmatrix} 0 &amp; -4 &amp; -6\\\\ -1 &amp; 0 &amp; -3\\\\ 1 &amp; 2 &amp; 5 \\end{pmatrix}\\)</span>. Find all eigenvalues of <em>A</em>.</p>\n", 
+    "statement_latex": "Consider the matrix\n$A = \\begin{pmatrix} 0 & -4 & -6\\\\ -1 & 0 & -3\\\\ 1 & 2 & 5 \\end{pmatrix}$.\nFind all eigenvalues of \\emph{A}.", 
+    "statement_raw": "Consider the matrix &lt;math> A = \\begin{pmatrix} 0 &amp; -4 &amp; -6\\\\ -1 &amp; 0 &amp; -3\\\\ 1 &amp; 2 &amp; 5 \\end{pmatrix} &lt;/math>. Find all eigenvalues of ''A''.", 
+    "term": "December", 
+    "topic_suggest": [
+        "Determinants"
+    ], 
+    "topics": [
+        "Eigenvalues_and_eigenvectors"
+    ], 
+    "url": "http://wiki.ubc.ca/Science:Math_Exam_Resources/Courses/MATH221/December_2007/Question_07_(b)", 
+    "year": 2007
+}

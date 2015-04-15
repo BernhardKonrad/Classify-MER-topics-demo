@@ -1,0 +1,50 @@
+{
+    "ID": "UBC+MATH221+December_2008+05_(b)", 
+    "answer_html": "<p>Then for <span class=\"math\">\\(k = 1000\\)</span>, we have <span class=\"math\">\\(A^{1000} =  \\begin{pmatrix}5^{1000} &amp; 0 \\\\\\frac{1}{2}(5^{1000} - 1) &amp; 1\\end{pmatrix}.\\)</span></p>\n", 
+    "answer_latex": "Then for $k = 1000$, we have\n$A^{1000} =  \\begin{pmatrix}5^{1000} & 0 \\\\\\frac{1}{2}(5^{1000} - 1) & 1\\end{pmatrix}.$", 
+    "contributors": [
+        "Konradbe", 
+        "CarmenBruni"
+    ], 
+    "course": "MATH221", 
+    "flags": [
+        "QGQ", 
+        "QGH", 
+        "QGS", 
+        "QGT"
+    ], 
+    "hints_html": [
+        "<p>Make use of the result of <span>part (a)</span> to diagonalize <span class=\"math\">\\(A\\)</span>. Powers of diagonal matrices are easy to compute.</p>\n"
+    ], 
+    "hints_latex": [
+        "Make use of the result of\n{part\n(a)} to diagonalize $A$. Powers of diagonal matrices are easy to\ncompute."
+    ], 
+    "hints_raw": [
+        "Make use of the result of [[Science:Math_Exam_Resources/Courses/MATH221/December_2008/Question_05_(a)|part (a)]] to diagonalize &lt;math>A&lt;/math>. Powers of diagonal matrices are easy to compute."
+    ], 
+    "num_votes": 0, 
+    "question": "5 (b)", 
+    "rating": -1, 
+    "sols_html": [
+        "<p>From <span>part (a)</span>, we know that the eigenvalues for <span class=\"math\">\\(A\\)</span> are <span class=\"math\">\\(\\lambda_1 = 1\\)</span> and <span class=\"math\">\\(\\lambda_2 = 5\\)</span>, with corresponding eigenvectors <span class=\"math\">\\(v_1 = \\begin{pmatrix}0 \\\\1\\end{pmatrix}\\)</span> and <span class=\"math\">\\(v_2 = \\begin{pmatrix}2 \\\\1\\end{pmatrix}\\)</span>, respectively.</p>\n<p>Let <span class=\"math\">\\(D =   \\begin{pmatrix}1 &amp; 0 \\\\0 &amp; 5\\end{pmatrix}\\)</span> denote the matrix of eigenvalues, and <span class=\"math\">\\(P =   \\begin{pmatrix}0 &amp; 2 \\\\1 &amp; 1\\end{pmatrix}\\)</span> the matrix whose columns are the corresponding eigenvectors. Then <span class=\"math\">\\(A\\)</span> is diagonalized via <span class=\"math\">\\(D = P^{-1}A P\\)</span>, or, <span class=\"math\">\\(A = P D P^{-1}\\)</span>.</p>\n<p>This decomposition allows for easy computations of powers of <span class=\"math\">\\(A\\)</span>, as for any integer <span class=\"math\">\\(k\\)</span>, we have <span class=\"math\">\\(A^k = (PDP^{-1})^k = P D^k P^{-1}\\)</span>, and <span class=\"math\">\\(D^k =  \\begin{pmatrix}1^k &amp; 0 \\\\0 &amp; 5^k\\end{pmatrix}\\)</span>. Therefore, we compute <span class=\"math\">\\(P^{-1} =  \\begin{pmatrix}-\\frac{1}{2} &amp; 1 \\\\\\frac{1}{2} &amp; 0\\end{pmatrix}\\)</span>, and multiply the three matrices to obtain</p>\n<p><span class=\"math\">\\(A^{k} = P D^{k} P^{-1} =  \\begin{pmatrix}0 &amp; 2 \\\\1 &amp; 1\\end{pmatrix}\\begin{pmatrix}1 &amp; 0 \\\\0 &amp; 5^{k}\\end{pmatrix} \\begin{pmatrix}-\\frac{1}{2} &amp; 1 \\\\\\frac{1}{2} &amp; 0\\end{pmatrix} =  \\begin{pmatrix}5^{k} &amp; 0 \\\\\\frac{1}{2}(5^{k} - 1) &amp; 1\\end{pmatrix}.\\)</span></p>\n<p>Then for <span class=\"math\">\\(k = 1000\\)</span>, we have <span class=\"math\">\\(A^{1000} =  \\begin{pmatrix}5^{1000} &amp; 0 \\\\\\frac{1}{2}(5^{1000} - 1) &amp; 1\\end{pmatrix}.\\)</span></p>\n"
+    ], 
+    "sols_latex": [
+        "From\n{part\n(a)}, we know that the eigenvalues for $A$ are $\\lambda_1 = 1$ and\n$\\lambda_2 = 5$, with corresponding eigenvectors\n$v_1 = \\begin{pmatrix}0 \\\\1\\end{pmatrix}$ and\n$v_2 = \\begin{pmatrix}2 \\\\1\\end{pmatrix}$, respectively.\n\nLet $D =   \\begin{pmatrix}1 & 0 \\\\0 & 5\\end{pmatrix}$ denote the matrix\nof eigenvalues, and $P =   \\begin{pmatrix}0 & 2 \\\\1 & 1\\end{pmatrix}$\nthe matrix whose columns are the corresponding eigenvectors. Then $A$ is\ndiagonalized via $D = P^{-1}A P$, or, $A = P D P^{-1}$.\n\nThis decomposition allows for easy computations of powers of $A$, as for\nany integer $k$, we have $A^k = (PDP^{-1})^k = P D^k P^{-1}$, and\n$D^k =  \\begin{pmatrix}1^k & 0 \\\\0 & 5^k\\end{pmatrix}$. Therefore, we\ncompute\n$P^{-1} =  \\begin{pmatrix}-\\frac{1}{2} & 1 \\\\\\frac{1}{2} & 0\\end{pmatrix}$,\nand multiply the three matrices to obtain\n\n$A^{k} = P D^{k} P^{-1} =  \\begin{pmatrix}0 & 2 \\\\1 & 1\\end{pmatrix}\\begin{pmatrix}1 & 0 \\\\0 & 5^{k}\\end{pmatrix} \\begin{pmatrix}-\\frac{1}{2} & 1 \\\\\\frac{1}{2} & 0\\end{pmatrix} =  \\begin{pmatrix}5^{k} & 0 \\\\\\frac{1}{2}(5^{k} - 1) & 1\\end{pmatrix}.$\n\nThen for $k = 1000$, we have\n$A^{1000} =  \\begin{pmatrix}5^{1000} & 0 \\\\\\frac{1}{2}(5^{1000} - 1) & 1\\end{pmatrix}.$"
+    ], 
+    "sols_raw": [
+        "From [[Science:Math_Exam_Resources/Courses/MATH221/December_2008/Question_05_(a)|part (a)]], we know that the eigenvalues for &lt;math>A&lt;/math> are &lt;math> \\lambda_1 = 1&lt;/math> and &lt;math> \\lambda_2 = 5&lt;/math>, with corresponding eigenvectors &lt;math> v_1 = \\begin{pmatrix}0 \\\\1\\end{pmatrix} &lt;/math> and &lt;math> v_2 = \\begin{pmatrix}2 \\\\1\\end{pmatrix} &lt;/math>, respectively.\n\nLet &lt;math>D =   \\begin{pmatrix}1 &amp; 0 \\\\0 &amp; 5\\end{pmatrix} &lt;/math> denote the matrix of eigenvalues, and &lt;math>P =   \\begin{pmatrix}0 &amp; 2 \\\\1 &amp; 1\\end{pmatrix} &lt;/math> the matrix whose columns are the corresponding eigenvectors. Then &lt;math>A&lt;/math> is diagonalized via &lt;math> D = P^{-1}A P &lt;/math>, or, &lt;math> A = P D P^{-1}&lt;/math>.\n\nThis decomposition allows for easy computations of powers of &lt;math>A&lt;/math>, as for any integer &lt;math>k&lt;/math>, we have &lt;math> A^k = (PDP^{-1})^k = P D^k P^{-1} &lt;/math>, and &lt;math> D^k =  \\begin{pmatrix}1^k &amp; 0 \\\\0 &amp; 5^k\\end{pmatrix} &lt;/math>. Therefore, we compute &lt;math> P^{-1} =  \\begin{pmatrix}-\\frac{1}{2} &amp; 1 \\\\\\frac{1}{2} &amp; 0\\end{pmatrix} &lt;/math>, and multiply the three matrices to obtain\n\n&lt;math>\nA^{k} = P D^{k} P^{-1} =  \\begin{pmatrix}0 &amp; 2 \\\\1 &amp; 1\\end{pmatrix}\\begin{pmatrix}1 &amp; 0 \\\\0 &amp; 5^{k}\\end{pmatrix} \\begin{pmatrix}-\\frac{1}{2} &amp; 1 \\\\\\frac{1}{2} &amp; 0\\end{pmatrix} =  \\begin{pmatrix}5^{k} &amp; 0 \\\\\\frac{1}{2}(5^{k} - 1) &amp; 1\\end{pmatrix}.\n&lt;/math>\n\nThen for &lt;math>k = 1000&lt;/math>, we have &lt;math> A^{1000} =  \\begin{pmatrix}5^{1000} &amp; 0 \\\\\\frac{1}{2}(5^{1000} - 1) &amp; 1\\end{pmatrix}. &lt;/math>"
+    ], 
+    "solvers": [
+        "MalcolmBowles"
+    ], 
+    "statement_html": "<p>Let <span class=\"math\">\\(A = \\begin{pmatrix} 5 &amp; 0\\\\ 2 &amp; 1 \\end{pmatrix}\\)</span>. Find the matrix <span class=\"math\">\\(A^{1000}\\)</span>. (Simplify your answer as much as possible.)</p>\n", 
+    "statement_latex": "Let $A = \\begin{pmatrix} 5 & 0\\\\ 2 & 1 \\end{pmatrix}$. Find the matrix\n$A^{1000}$. (Simplify your answer as much as possible.)", 
+    "statement_raw": "Let &lt;math> A = \\begin{pmatrix} 5 &amp; 0\\\\ 2 &amp; 1 \\end{pmatrix} &lt;/math>. Find the matrix &lt;math> A^{1000} &lt;/math>. (Simplify your answer as much as possible.)", 
+    "term": "December", 
+    "topic_suggest": [], 
+    "topics": [
+        "Eigenvalues_and_eigenvectors"
+    ], 
+    "url": "http://wiki.ubc.ca/Science:Math_Exam_Resources/Courses/MATH221/December_2008/Question_05_(b)", 
+    "year": 2008
+}
